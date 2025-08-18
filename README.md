@@ -12,12 +12,21 @@
 
 ```txt
 Review the entire codebase carefully. Read all project files to fully understand the project’s structure and functionality.
+
+Instructions :
+- Review every directory in the project.
+- Review every file in the project.
+
+Rules :
+- Exclude compiled Python files (.pyc, __pycache__) and other non-essential/generated files.
+
+You are expected to:
+- Gain a complete understanding of the codebase.
 ```
 
 ### Comments
 
 ```txt
-## Comments
 Act as expert Python programmer and English teacher.
 
 Instructions :
