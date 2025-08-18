@@ -5,6 +5,8 @@
   - [Rereview](#rereview)
 - [Starting](#starting)
   - [Comments](#comments)
+  - [Classes](#classes)
+  - [Functions](#functions)
 - [Postman](#postman)
 ---
 
@@ -86,9 +88,17 @@ You are expected to:
 - Apply to all files in this project.
 ```
 
+### Classes
 
+```txt
+Use classes as namespaces that contain only `@staticmethod` functions (no instance methods or stateful constructors).
+```
 
+### Functions
 
+```txt
+Use snake_case for function names, e.g., get_user, delete_user; avoid PascalCase like GetUser.
+```
 
 ## Postman
 
