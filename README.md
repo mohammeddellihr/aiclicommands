@@ -15,13 +15,18 @@ Review the entire codebase carefully. Read all project files to fully understand
 
 Instructions :
 - Review every directory in the project.
+- Review every subdirectory in the project.
 - Review every file in the project.
+- Pay special attention to GEMINI.md (if present).
+- Pay special attention to README.md (if present).
 
 Rules :
 - Exclude compiled Python files (.pyc, __pycache__) and other non-essential/generated files.
 
 You are expected to:
 - Gain a complete understanding of the codebase.
+- Identify and note the project’s objectives, structure, and key details.
+- Identify and note database design/usage, patterns, and potential issues.
 ```
 
 ### Comments
