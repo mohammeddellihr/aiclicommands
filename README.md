@@ -5,6 +5,7 @@
   - [Rereview](#rereview)
 - [Starting](#starting)
   - [Comments](#comments)
+  - [Clean](#clean)
   - [Classes](#classes)
   - [Functions](#functions)
   - [Variables](#variables)
@@ -83,6 +84,12 @@ Rules :
 You are expected to:
 - Follow all previous instructions & rules & examples.
 - Apply to all files in this project.
+```
+
+### Clean
+
+```txt
+Clean up the codebase by removing all unused or unnecessary folders, files, classes, and functions.
 ```
 
 ### Classes
