@@ -102,7 +102,7 @@ Use classes as namespaces that contain only `@staticmethod` functions (no instan
 Use snake_case for function names, e.g., get_user, delete_user; avoid PascalCase like GetUser.
 ```
 
-### variables
+### Variables
 
 ```txt
 Use snake_case for variable names, e.g., user_name, account_id; avoid PascalCase like UserName.
