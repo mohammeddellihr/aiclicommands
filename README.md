@@ -28,15 +28,16 @@ Rules :
 You are expected to:
 - Gain a complete understanding of the codebase.
 - Identify and note the project’s objectives, structure, and key details.
-- Identify and note database design/usage, patterns, and potential issues.
+- Identify and note database design/usage, patterns, and file/directory map.
 ```
 
 ### Rereview
 
 ```txt
-Rereview the entire codebase carefully. Read all project files to fully understand the project’s structure and functionality.
+Rereview the entire codebase carefully from scratch. Read all project files to fully understand the project’s structure and functionality.
 
 Instructions :
+- Start the review from scratch.
 - Rereview every directory in the project.
 - Rereview every subdirectory in the project.
 - Rereview every file in the project.
@@ -49,7 +50,7 @@ Rules :
 You are expected to:
 - Gain a complete understanding of the codebase.
 - Identify and note the project’s objectives, structure, and key details.
-- Identify and note database design/usage, patterns, and potential issues.
+- Identify and note database design/usage, patterns, and file/directory map.
 ```
 
 
