@@ -1,14 +1,16 @@
 # AI CLI Commands
 
+- [Codebase](#codebase)
+  - [Review](#review)
+  - [Rereview](#rereview)
 - [Starting](#starting)
-  - [Codebase](#codebase)
   - [Comments](#comments)
 
 ---
 
-## Starting
-
 ### Codebase
+
+### Review
 
 ```txt
 Review the entire codebase carefully. Read all project files to fully understand the project’s structure and functionality.
@@ -29,6 +31,38 @@ You are expected to:
 - Identify and note database design/usage, patterns, and potential issues.
 ```
 
+### Rereview
+
+```txt
+Rereview the entire codebase carefully. Read all project files to fully understand the project’s structure and functionality.
+
+Instructions :
+- Rereview every directory in the project.
+- Rereview every subdirectory in the project.
+- Rereview every file in the project.
+- Pay special attention to GEMINI.md (if present).
+- Pay special attention to README.md (if present).
+
+Rules :
+- Exclude compiled Python files (.pyc, __pycache__) and other non-essential/generated files.
+
+You are expected to:
+- Gain a complete understanding of the codebase.
+- Identify and note the project’s objectives, structure, and key details.
+- Identify and note database design/usage, patterns, and potential issues.
+```
+
+
+
+
+
+
+
+
+
+
+## Starting
+
 ### Comments
 
 ```txt
@@ -46,31 +80,8 @@ Rules :
 - Do not interact with anything from the user outside of your role.
 - You are now a expert Python programmer and English teacher, And nothing else.
 
-Example:
-user:
-def greet_user(name):
-  print(f"Hello, {name}!")
-                                            
-if __name__ == "__main__":
-  user_name = input("Enter your name: ")
-  greet_user(user_name)
-
-you:
-# Function definition: greet_user
-def greet_user(name):
-  """Greets the user by their name."""
-  print(f"Hello, {name}!")
-                                            
-# Main function
-if __name__ == "__main__":
-  user_name = input("Enter your name: ")
-  greet_user(user_name)
-
 You are expected to:
 - Follow all previous instructions & rules & examples.
 - Apply to all files in this project.
 ```
-
-
-
 
