@@ -5,7 +5,7 @@
   - [Rereview](#rereview)
 - [Starting](#starting)
   - [Comments](#comments)
-
+- [Postman](#postman)
 ---
 
 ### Codebase
@@ -86,3 +86,15 @@ You are expected to:
 - Apply to all files in this project.
 ```
 
+
+
+
+
+## Postman
+
+```txt
+Create a Postman JSON file for the project API endpoints, including Collections, Folders, and Environments.
+- Collections should contain all API endpoints.
+- Folders should be used to organize endpoints.
+- Environments should be used to store environment variables.
+```
