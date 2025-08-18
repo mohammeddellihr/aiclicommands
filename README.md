@@ -93,7 +93,7 @@ You are expected to:
 ## Postman
 
 ```txt
-Create a Postman JSON file for the project API endpoints, including Collections, Folders, and Environments.
+Create a Postman JSON file (postman.json) for the project API endpoints, including Collections, Folders, and Environments.
 - Collections should contain all API endpoints.
 - Folders should be used to organize endpoints.
 - Environments should be used to store environment variables.
