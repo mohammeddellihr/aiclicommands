@@ -31,8 +31,10 @@ Rules :
 
 You are expected to:
 - Gain a complete understanding of the codebase.
-- Identify and note the project’s objectives, structure, and key details.
-- Identify and note database design/usage, patterns, and file/directory map.
+- Identify and note the project’s folder and file structure.
+- Identify and note the database and storage schema/diagram.
+- Identify and note key modules, components, and their responsibilities.
+- Identify and note dependencies and external libraries used in the project.
 ```
 
 ### Rereview
@@ -53,18 +55,11 @@ Rules :
 
 You are expected to:
 - Gain a complete understanding of the codebase.
-- Identify and note the project’s objectives, structure, and key details.
-- Identify and note database design/usage, patterns, and file/directory map.
+- Identify and note the project’s folder and file structure.
+- Identify and note the database and storage schema/diagram.
+- Identify and note key modules, components, and their responsibilities.
+- Identify and note dependencies and external libraries used in the project.
 ```
-
-
-
-
-
-
-
-
-
 
 ## Starting
 
@@ -116,3 +111,6 @@ Create a Postman JSON file (postman.json) for the project API endpoints, includi
 - Folders should be used to organize endpoints.
 - Environments should be used to store environment variables.
 ```
+
+
+Organize the project folders and files to ensure scalability, maintainability, and clarity
