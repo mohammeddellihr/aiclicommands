@@ -89,7 +89,7 @@ You are expected to:
 ### Clean
 
 ```txt
-Clean up the codebase by removing all unused or unnecessary folders, files, classes, and functions.
+Clean up the codebase by removing all unused or unnecessary classes and functions.
 ```
 
 ### Classes
