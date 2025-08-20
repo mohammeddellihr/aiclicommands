@@ -1,7 +1,7 @@
 # AI CLI Commands
 
 - [Codebase](#codebase)
-  - [Review](#review)
+  - [Codebase Auditor](#codebase-auditor)
 - [Starting](#starting)
   - [Comments](#comments)
   - [Clean](#clean)
@@ -14,7 +14,9 @@
 
 ### Codebase
 
-### Codebase Error Auditor
+### Codebase Auditor
+
+```txt
 You are an expert codebase auditor.
 
 Goal:
@@ -42,6 +44,7 @@ Deliverable:
   • Schema  
   • Routes  
   • Dependencies  
+```
 
 ### Codebase Error Auditor
 
