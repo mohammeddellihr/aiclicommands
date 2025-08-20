@@ -2,6 +2,7 @@
 
 - [Codebase](#codebase)
   - [Codebase Auditor](#codebase-auditor)
+  - [Codebase Error Auditor](#codebase-error-auditor)
 - [Starting](#starting)
   - [Comments](#comments)
   - [Clean](#clean)
