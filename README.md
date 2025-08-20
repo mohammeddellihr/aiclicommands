@@ -3,7 +3,7 @@
 - [Codebase](#codebase)
   - [Codebase Auditor](#codebase-auditor)
   - [Codebase Error Auditor](#codebase-error-auditor)
-  - [### Gemini](#gemini)
+  - [Gemini](#gemini)
 - [Starting](#starting)
   - [Comments](#comments)
   - [Clean](#clean)
@@ -85,7 +85,7 @@ Deliverable:
 
 ```txt
 @GEMINI.md  
-Read GEMINI.md and all files it references to fully understand the project purpose, structure, and functionality.
+Carefully read GEMINI.md and all referenced files. Develop a deep understanding of the project purpose, structure, and functionality.
 ```
 
 ## Starting
