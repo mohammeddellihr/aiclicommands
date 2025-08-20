@@ -2,7 +2,6 @@
 
 - [Codebase](#codebase)
   - [Review](#review)
-  - [Rereview](#rereview)
 - [Starting](#starting)
   - [Comments](#comments)
   - [Clean](#clean)
@@ -15,51 +14,67 @@
 
 ### Codebase
 
-### Review
+### Codebase Error Auditor
+You are an expert codebase auditor.
+
+Goal:
+- Analyze the entire repository to fully understand its structure, functionality. 
+- Do NOT modify any files.
+
+Scope:
+- Recursively review all directories and files.
+- Prioritize GEMINI.md and README.md if present.
+- Respect .gitignore and skip non-essential/generated artifacts.
+
+Instructions:
+- Review the codebase carefully, including all directories and subdirectories.
+- Develop a complete understanding of the project.
+- Map the folder & file structure (key paths only).
+- Summarize architecture: modules/components and responsibilities.
+- List routes/endpoints and their handlers.
+- Infer data model/schema from ORM models/migrations/configs.
+- Identify dependencies (runtime/dev) and external services.
+
+Deliverable:
+- A structured report containing:  
+  • Folder structure  
+  • Architecture summary  
+  • Schema  
+  • Routes  
+  • Dependencies  
+
+### Codebase Error Auditor
 
 ```txt
-Review the entire codebase carefully. Read all project files to fully understand the project’s structure and functionality.
+You are an expert codebase error auditor.
 
-Instructions :
-- Review every directory in the project.
-- Review every subdirectory in the project.
-- Review every file in the project.
-- Pay special attention to GEMINI.md (if present).
-- Pay special attention to README.md (if present).
+Goal:
+- Analyze the entire repository to fully understand its structure, functionality, and potential issues. 
+- Do NOT modify any files.
 
-Rules :
-- Exclude compiled Python files (.pyc, __pycache__) and other non-essential/generated files.
+Scope:
+- Recursively review all directories and files.
+- Prioritize GEMINI.md and README.md if present.
+- Respect .gitignore and skip non-essential/generated artifacts.
 
-You are expected to:
-- Gain a complete understanding of the codebase.
-- Identify and note the project’s folder and file structure.
-- Identify and note the database and storage schema/diagram.
-- Identify and note key modules, components, and their responsibilities.
-- Identify and note dependencies and external libraries used in the project.
-```
+Instructions:
+- Review the codebase carefully, including all directories and subdirectories.
+- Develop a complete understanding of the project.
+- Map the folder & file structure (key paths only).
+- Summarize architecture: modules/components and responsibilities.
+- List routes/endpoints and their handlers.
+- Infer data model/schema from ORM models/migrations/configs.
+- Identify dependencies (runtime/dev) and external services.
+- Detect errors/problems (syntax, logical, runtime risks) with precise locations and suggested fixes.
 
-### Rereview
-
-```txt
-Rereview the entire codebase carefully from scratch. Read all project files to fully understand the project’s structure and functionality.
-
-Instructions :
-- Start the review from scratch.
-- Rereview every directory in the project.
-- Rereview every subdirectory in the project.
-- Rereview every file in the project.
-- Pay special attention to GEMINI.md (if present).
-- Pay special attention to README.md (if present).
-
-Rules :
-- Exclude compiled Python files (.pyc, __pycache__) and other non-essential/generated files.
-
-You are expected to:
-- Gain a complete understanding of the codebase.
-- Identify and note the project’s folder and file structure.
-- Identify and note the database and storage schema/diagram.
-- Identify and note key modules, components, and their responsibilities.
-- Identify and note dependencies and external libraries used in the project.
+Deliverable:
+- A structured report containing:  
+  • Folder structure  
+  • Architecture summary  
+  • Schema  
+  • Routes  
+  • Dependencies  
+  • Issues found
 ```
 
 ## Starting
@@ -118,6 +133,18 @@ Create a Postman JSON file (postman.json) for the project API endpoints, includi
 - Folders should be used to organize endpoints.
 - Environments should be used to store environment variables.
 ```
+
+## software reviewer
+
+```txt
+You are an expert software reviewer and fixer. 
+Review all project files and detect syntax errors, logical bugs, and runtime risks. 
+```
+
+
+
+
+
 
 
 Organize the project folders and files to ensure scalability, maintainability, and clarity
