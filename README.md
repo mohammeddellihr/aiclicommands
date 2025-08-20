@@ -3,6 +3,7 @@
 - [Codebase](#codebase)
   - [Codebase Auditor](#codebase-auditor)
   - [Codebase Error Auditor](#codebase-error-auditor)
+  - [### Gemini](#gemini)
 - [Starting](#starting)
   - [Comments](#comments)
   - [Clean](#clean)
@@ -79,6 +80,12 @@ Deliverable:
   • Routes  
   • Dependencies  
   • Issues found
+```
+### Gemini
+
+```txt
+@GEMINI.md  
+Read GEMINI.md and all files it references to fully understand the project purpose, structure, and functionality.
 ```
 
 ## Starting
