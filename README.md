@@ -81,11 +81,12 @@ Deliverable:
   • Dependencies  
   • Issues found
 ```
+
 ### Gemini
 
 ```txt
 @GEMINI.md  
-Carefully read GEMINI.md and all referenced files. Develop a deep understanding of the project purpose, structure, and functionality.
+Carefully read GEMINI.md and all files mentioned in it. Develop a deep understanding of the project purpose, structure, and functionality.
 ```
 
 ## Starting
@@ -157,5 +158,3 @@ Review all project files and detect syntax errors, logical bugs, and runtime ris
 
 
 
-
-Organize the project folders and files to ensure scalability, maintainability, and clarity
