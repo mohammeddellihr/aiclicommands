@@ -42,7 +42,7 @@ Instructions:
 Deliverable:
 - A structured report containing:  
   • Folder structure  
-  • Architecture summary  
+  • Architecture  
   • Schema  
   • Routes  
   • Dependencies  
