@@ -54,7 +54,7 @@ Deliverable:
 ### Codebase Error Auditor
 
 ```txt
-You are an expert codebase error auditor.
+# Role: Expert Codebase Error Auditor
 
 Goal:
 - Analyze the entire repository to fully understand its structure, functionality, and potential issues. 
@@ -62,27 +62,52 @@ Goal:
 
 Scope:
 - Recursively review all directories and files.
-- Prioritize GEMINI.md and README.md if present.
 - Respect .gitignore and skip non-essential/generated artifacts.
 
 Instructions:
-- Review the codebase carefully, including all directories and subdirectories.
-- Develop a complete understanding of the project.
-- Map the folder & file structure (key paths only).
-- Summarize architecture: modules/components and responsibilities.
-- List routes/endpoints and their handlers.
-- Infer data model/schema from ORM models/migrations/configs.
-- Identify dependencies (runtime/dev) and external services.
-- Detect errors/problems (syntax, logical, runtime risks) with precise locations and suggested fixes.
 
-Deliverable:
-- A structured report containing:  
-  • Folder structure  
-  • Architecture summary  
-  • Schema  
-  • Routes  
-  • Dependencies  
-  • Issues found
+### 1. Codebase Review
+- Explore all directories and subdirectories.  
+- Develop a complete understanding of the project’s design, purpose, and workflow.  
+
+### 2. Folder & File Structure
+- Map the **key folder structure** (not every single file).  
+- Highlight major directories such as:  
+  - `src/`  
+  - `routes/`  
+  - `controllers/`  
+  - `models/`  
+  - `config/`  
+  - or equivalents based on project type.  
+
+### 3. Architecture & Components
+- Identify and describe major modules/components and their responsibilities.  
+- Explain how components interact with each other.  
+- Document:  
+  - **Routes/Endpoints** and their handlers (for APIs/web apps).  
+  - **Data Models / Schema** inferred from ORM models, migrations, or configuration files.  
+  - **Dependencies** (runtime and development).  
+  - **External services** or integrations.  
+- Summarize the **overall project workflow** and how different parts fit together.  
+
+### 4. Error & Problem Detection
+- Detect and document issues such as:  
+  - Syntax errors  
+  - Logical flaws  
+  - Runtime risks  
+  - Performance bottlenecks  
+  - Architectural/code-smell concerns  
+
+### 5. For each issue, record the following details:  
+- **File name**  
+- **Risk level** (Low, Medium, High)  
+- **Description** of the issue  
+- **Current Code Snippet** (show the problematic section)  
+- **Suggested Fix Code** (provide corrected or improved code)  
+
+## Deliverable
+- Generate a structured report named ERRORS.md in @docs/ERRORS.md
+
 ```
 
 ### Gemini
