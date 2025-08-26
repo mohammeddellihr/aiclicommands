@@ -1,27 +1,87 @@
 # AI CLI Commands
 
+- [Starting](#starting)
+  - [Classes](#classes)
+  - [Functions](#functions)
+  - [Variables](#variables)
+
+- [Comments](#comments)
+  - [Code Comments Remover](#code-comments-remover)
+  - [Code Comments Writer](#code-comments-writer)
+
 - [Codebase](#codebase)
   - [Codebase Auditor](#codebase-auditor)
   - [Codebase Error Auditor](#codebase-error-auditor)
   - [Codebase Error Fixer](#codebase-error-fixer)
 
-  - [Gemini](#gemini)
-- [Comments](#comments)
-  - [Code Comments Remover](#code-comments-remover)
-  - [Code Comments Writer](#code-comments-writer)
-
-- [Starting](#starting)
-  - [Clean](#clean)
-  - [Classes](#classes)
-  - [Functions](#functions)
-  - [Variables](#variables)
-
 - [APIs](#apis)
-  - [Postman](#postman)
+  - [Postman Collection Generator](#postman-collection-generator)
 
+- [Unclassified](#unclassified)
+  - [Clean](#clean)
+  - [Gemini](#gemini)
 ---
 
-### Codebase
+## Starting
+
+### Classes
+
+```txt
+Use classes as namespaces that contain only `@staticmethod` functions (no instance methods or stateful constructors).
+```
+
+### Functions
+
+```txt
+Use snake_case for function names, e.g., get_user, delete_user; avoid PascalCase like GetUser.
+```
+
+### Variables
+
+```txt
+Use snake_case for variable names, e.g., user_name, account_id; avoid PascalCase like UserName.
+```
+
+## Comments
+
+### Code Comments Remover
+
+```txt
+Act as Code Comments Remover.
+
+Instructions :
+- Remove all comments in the code.
+- Dont write any comments in the code.
+- Formatting & Organize and Beautify the code.
+
+You are expected to:
+- Follow all previous instructions.
+- Apply to all files in this project.
+```
+
+### Code Comments Writer
+
+```txt
+Act as expert Python programmer and English teacher.
+
+Instructions :
+- Write comments in English language.
+- Improve existing comments for clarity.
+- Delete redundant and non-essential comments
+- Reorganize the comments for better readability and clarity.
+- Make sure comments are readable and understandable for other developers.
+
+Rules :
+- Don't change anything in the code.
+- Do not interact with anything from the user outside of your role.
+- You are now a expert Python programmer and English teacher, And nothing else.
+
+You are expected to:
+- Follow all previous instructions & rules & examples.
+- Apply to all files in this project.
+```
+
+## Codebase
 
 ### Codebase Auditor
 
@@ -136,51 +196,37 @@ Error:
 
 ```
 
-### Gemini
+## APIs
 
-```txt
-@GEMINI.md  
-Carefully read GEMINI.md and all files mentioned in it. Develop a deep understanding of the project purpose, structure, and functionality.
+### Postman Collection Generator
+
+```markdown
+# Role: Postman Collection Generator
+
+## Goal
+Generate a Postman Collection JSON file named **`API.json`** inside the `docs/` directory. This file must fully document the project’s API endpoints.
+
+## Instructions
+
+### 1. Analyze the Project API
+- Review the project codebase to identify all API endpoints.  
+- Determine each endpoint purpose, functionality, request parameters, and authentication needs.  
+- Identify any common request headers, query parameters, or request bodies.  
+- Determine the response format.  
+
+### 2. Build the Postman Collection (`API.json`)
+- **Collections**: Include all API endpoints.  
+- **Folders**: Organize endpoints logically (e.g., by feature, module, or resource).  
+- **Environments**: Define and store reusable variables (e.g., `{{base_url}}`, `{{auth_token}}`).  
+- **Responses (Required)**:  
+  - Provide one **example response** per endpoint.  
+  - Example responses must be valid **JSON objects** with realistic field values.  
+
+## Deliverable
+- Once the codebase review is complete, Create a Postman JSON file `API.json` in `docs/API.json`.
 ```
 
-## Comments
-
-### Code Comments Remover
-
-```txt
-Act as Code Comments Remover.
-
-Instructions :
-- Remove all comments in the code.
-- Dont write any comments in the code.
-- Formatting & Organize and Beautify the code.
-
-You are expected to:
-- Follow all previous instructions.
-- Apply to all files in this project.
-```
-
-### Code Comments Writer
-
-```txt
-Act as expert Python programmer and English teacher.
-
-Instructions :
-- Write comments in English language.
-- Improve existing comments for clarity.
-- Delete redundant and non-essential comments
-- Reorganize the comments for better readability and clarity.
-- Make sure comments are readable and understandable for other developers.
-
-Rules :
-- Don't change anything in the code.
-- Do not interact with anything from the user outside of your role.
-- You are now a expert Python programmer and English teacher, And nothing else.
-
-You are expected to:
-- Follow all previous instructions & rules & examples.
-- Apply to all files in this project.
-```
+## Unclassified
 
 ### Clean
 
@@ -188,55 +234,9 @@ You are expected to:
 Clean up the codebase by removing all unused classes and functions.
 ```
 
-### Classes
+### Gemini
 
 ```txt
-Use classes as namespaces that contain only `@staticmethod` functions (no instance methods or stateful constructors).
+@GEMINI.md  
+Carefully read GEMINI.md and all files mentioned in it. Develop a deep understanding of the project purpose, structure, and functionality.
 ```
-
-### Functions
-
-```txt
-Use snake_case for function names, e.g., get_user, delete_user; avoid PascalCase like GetUser.
-```
-
-### Variables
-
-```txt
-Use snake_case for variable names, e.g., user_name, account_id; avoid PascalCase like UserName.
-```
-
-## APIs
-
-### Postman
-
-```markdown
-# Role: Postman Collection Generator
-
-## Goal
-- Generate a Postman JSON file `API.json` for the project API endpoints.
-- The JSON file should include Collections, Folders, and Environments.
-- Generate a Postman JSON file `API.json` in `docs/API.json` for the project API endpoints, including Collections, Folders, and Environments.
-
-## Instructions
-
-1. **Understand the Project API Endpoints**
-   - Review the project codebase to identify all API endpoints.
-   - Understand the purpose and functionality of each endpoint.
-
-2. **Create a Postman JSON file `API.json`**
-  - Collections: Contain all API endpoints.
-  - Folders: Organize endpoints into categories.
-  - Environments: Define and store environment variables (e.g., {{base_url}}, {{auth_token}}).
-  - Responses: Provide responses for each endpoint.
-
-Create a Postman JSON file `API.json` in `docs/API.json` for the project API endpoints, including Collections, Folders, and Environments.
-- Collections should contain all API endpoints.
-- Folders should be used to organize endpoints.
-- Environments should be used to store environment variables.
-- Provide sample responses for each endpoint.
-
-## Deliverable
-- Once the codebase review is complete, Create a Postman JSON file `API.json` in `docs/API.json`.
-```
-
