@@ -4,6 +4,10 @@
   - [Codebase Auditor](#codebase-auditor)
   - [Codebase Error Auditor](#codebase-error-auditor)
   - [Gemini](#gemini)
+- [Comments](#comments)
+  - [Code Comments Writer](#code-comments-writer)
+  - [Code Comments Remover](#code-comments-remover)
+
 - [Starting](#starting)
   - [Comments](#comments)
   - [Clean](#clean)
@@ -89,9 +93,9 @@ Deliverable:
 Carefully read GEMINI.md and all files mentioned in it. Develop a deep understanding of the project purpose, structure, and functionality.
 ```
 
-## Starting
+## Comments
 
-### Comments
+### Code Comments Writer
 
 ```txt
 Act as expert Python programmer and English teacher.
@@ -110,6 +114,21 @@ Rules :
 
 You are expected to:
 - Follow all previous instructions & rules & examples.
+- Apply to all files in this project.
+```
+
+### Code Comments Remover
+
+```txt
+Act as Code Comments Remover.
+
+Instructions :
+- Remove all comments in the code.
+- Dont write any comments in the code.
+- Formatting & Organize and Beautify the code.
+
+You are expected to:
+- Follow all previous instructions.
 - Apply to all files in this project.
 ```
 
