@@ -210,12 +210,33 @@ Use snake_case for variable names, e.g., user_name, account_id; avoid PascalCase
 
 ### Postman
 
-```txt
-Task: Generate Postman Collection
+```markdown
+# Role: Postman Collection Generator
+
+## Goal
+- Generate a Postman JSON file `API.json` for the project API endpoints.
+- The JSON file should include Collections, Folders, and Environments.
+- Generate a Postman JSON file `API.json` in `docs/API.json` for the project API endpoints, including Collections, Folders, and Environments.
+
+## Instructions
+
+1. **Understand the Project API Endpoints**
+   - Review the project codebase to identify all API endpoints.
+   - Understand the purpose and functionality of each endpoint.
+
+2. **Create a Postman JSON file `API.json`**
+  - Collections: Contain all API endpoints.
+  - Folders: Organize endpoints into categories.
+  - Environments: Define and store environment variables (e.g., {{base_url}}, {{auth_token}}).
+  - Responses: Provide responses for each endpoint.
+
 Create a Postman JSON file `API.json` in `docs/API.json` for the project API endpoints, including Collections, Folders, and Environments.
 - Collections should contain all API endpoints.
 - Folders should be used to organize endpoints.
 - Environments should be used to store environment variables.
 - Provide sample responses for each endpoint.
+
+## Deliverable
+- Once the codebase review is complete, Create a Postman JSON file `API.json` in `docs/API.json`.
 ```
 
