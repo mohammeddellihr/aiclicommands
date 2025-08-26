@@ -53,7 +53,7 @@ Deliverable:
 
 ### Codebase Error Auditor
 
-```txt
+```markdown
 # Role: Expert Codebase Error Auditor
 
 Goal:
