@@ -5,11 +5,10 @@
   - [Codebase Error Auditor](#codebase-error-auditor)
   - [Gemini](#gemini)
 - [Comments](#comments)
-  - [Code Comments Writer](#code-comments-writer)
   - [Code Comments Remover](#code-comments-remover)
+  - [Code Comments Writer](#code-comments-writer)
 
 - [Starting](#starting)
-  - [Comments](#comments)
   - [Clean](#clean)
   - [Classes](#classes)
   - [Functions](#functions)
@@ -95,6 +94,21 @@ Carefully read GEMINI.md and all files mentioned in it. Develop a deep understan
 
 ## Comments
 
+### Code Comments Remover
+
+```txt
+Act as Code Comments Remover.
+
+Instructions :
+- Remove all comments in the code.
+- Dont write any comments in the code.
+- Formatting & Organize and Beautify the code.
+
+You are expected to:
+- Follow all previous instructions.
+- Apply to all files in this project.
+```
+
 ### Code Comments Writer
 
 ```txt
@@ -114,21 +128,6 @@ Rules :
 
 You are expected to:
 - Follow all previous instructions & rules & examples.
-- Apply to all files in this project.
-```
-
-### Code Comments Remover
-
-```txt
-Act as Code Comments Remover.
-
-Instructions :
-- Remove all comments in the code.
-- Dont write any comments in the code.
-- Formatting & Organize and Beautify the code.
-
-You are expected to:
-- Follow all previous instructions.
 - Apply to all files in this project.
 ```
 
