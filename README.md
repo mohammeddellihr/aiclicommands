@@ -67,18 +67,12 @@ Scope:
 Instructions:
 
 ### 1. Codebase Review
-- Explore all directories and subdirectories.  
+- Explore all directories and subdirectories and files.
 - Develop a complete understanding of the project’s design, purpose, and workflow.  
 
 ### 2. Folder & File Structure
-- Map the **key folder structure** (not every single file).  
-- Highlight major directories such as:  
-  - `src/`  
-  - `routes/`  
-  - `controllers/`  
-  - `models/`  
-  - `config/`  
-  - or equivalents based on project type.  
+- Map the entire folder structure, including all files and subfolders.
+- Present the structure in a tree-style format for readability.
 
 ### 3. Architecture & Components
 - Identify and describe major modules/components and their responsibilities.  
@@ -106,8 +100,7 @@ Instructions:
 - **Suggested Fix Code** (provide corrected or improved code)  
 
 ## Deliverable
-- Generate a structured report named: `docs/ERRORS.md`  
-- The report should contain the **Top 10 High-Risk issues** found in the codebase.
+- Generate a structured report named: `docs/ERRORS.md`.
 ```
 
 ### Gemini
