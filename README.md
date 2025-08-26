@@ -106,8 +106,8 @@ Instructions:
 - **Suggested Fix Code** (provide corrected or improved code)  
 
 ## Deliverable
-- Generate a structured report named ERRORS.md in @docs/ERRORS.md
-
+- Generate a structured report named: `docs/ERRORS.md`  
+- The report should contain the **Top 10 High-Risk issues** found in the codebase.
 ```
 
 ### Gemini
