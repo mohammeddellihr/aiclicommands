@@ -16,7 +16,9 @@
   - [Functions](#functions)
   - [Variables](#variables)
 
-- [Postman](#postman)
+- [APIs](#apis)
+  - [Postman](#postman)
+
 ---
 
 ### Codebase
@@ -102,7 +104,7 @@ Instructions:
 - **Suggested Fix Code** (provide corrected or improved code)  
 
 ## Deliverable
-- Generate a structured report named: `docs/ERRORS.md`.
+- Once the codebase review is complete, generate a structured report named `ERRORS.md` in `docs/ERRORS.md`.
 ```
 
 ### Codebase Error Fixer
@@ -204,24 +206,16 @@ Use snake_case for function names, e.g., get_user, delete_user; avoid PascalCase
 Use snake_case for variable names, e.g., user_name, account_id; avoid PascalCase like UserName.
 ```
 
-## Postman
+## APIs
+
+### Postman
 
 ```txt
-Create a Postman JSON file (postman.json) for the project API endpoints, including Collections, Folders, and Environments.
+Task: Generate Postman Collection
+Create a Postman JSON file `API.json` in `docs/API.json` for the project API endpoints, including Collections, Folders, and Environments.
 - Collections should contain all API endpoints.
 - Folders should be used to organize endpoints.
 - Environments should be used to store environment variables.
+- Provide sample responses for each endpoint.
 ```
-
-## software reviewer
-
-```txt
-You are an expert software reviewer and fixer. 
-Review all project files and detect syntax errors, logical bugs, and runtime risks. 
-```
-
-
-
-
-
 
