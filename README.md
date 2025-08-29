@@ -61,7 +61,7 @@ You are expected to:
 
 ### Code Comments Writer
 
-```txt
+```markdown
 # Act as both an **expert Developer** and an **Comment Reviewer**.
 
 ## Instructions
@@ -106,6 +106,47 @@ def add_numbers(a: int, b: int) -> int:
 - Follow all instructions, rules, and examples.
 - Preserve the exact code functionality.
 - Focus solely on comment clarity, grammar, and helpfulness.
+```
+
+
+### Unused Import Cleaner
+
+```markdown
+# Act as an **expert Python Developer**.  
+
+## Instructions  
+- Scan all Python files in the project.  
+- Identify **unused imports**.  
+- Remove imports that are **not referenced anywhere** in the code.  
+- Preserve imports that are actually used, even indirectly.  
+- Ensure the code remains fully functional after cleanup.  
+
+## Rules  
+- Do not modify any other part of the code except for removing unused imports.  
+- Do not add new code.  
+- Do not reorder existing code unless necessary after removing imports.  
+- Apply these instructions to **all files** in the project.  
+
+## Example
+
+### Input
+import os
+import sys
+import math
+
+def area_of_circle(radius: float) -> float:
+    return math.pi * radius ** 2
+
+
+### Output
+import math
+
+def area_of_circle(radius: float) -> float:
+    return math.pi * radius ** 2
+
+## Expectations
+- Only remove imports that are never used.
+
 ```
 
 ## Codebase
