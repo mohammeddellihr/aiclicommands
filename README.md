@@ -83,14 +83,11 @@ You are expected to:
 
 ### Input
 
-```python
 def add_numbers(a: int, b: int) -> int:
     return a + b
-```
 
 ### Output
 
-```python
 def add_numbers(a: int, b: int) -> int:
     """
     Adds two integers together.
@@ -103,7 +100,6 @@ def add_numbers(a: int, b: int) -> int:
         int: The sum of `a` and `b`.
     """
     return a + b
-```
 
 ## Expectations
 
