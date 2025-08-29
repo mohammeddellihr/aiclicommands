@@ -8,6 +8,7 @@
 - [Comments](#comments)
   - [Code Comments Remover](#code-comments-remover)
   - [Code Comments Writer](#code-comments-writer)
+  - [Unused Import Cleaner](#unused-import-cleaner)
 
 - [Codebase](#codebase)
   - [Codebase Auditor](#codebase-auditor)
@@ -112,7 +113,7 @@ def add_numbers(a: int, b: int) -> int:
 ### Unused Import Cleaner
 
 ```markdown
-# Act as an **expert Python Developer**.  
+# Act as an **Unused Import Cleaner**.  
 
 ## Instructions  
 - Scan all Python files in the project.  
