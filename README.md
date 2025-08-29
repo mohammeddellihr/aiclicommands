@@ -62,23 +62,25 @@ You are expected to:
 ### Code Comments Writer
 
 ```txt
-Act as expert Python programmer and English teacher.
+Act as expert Developer and English teacher.
 
 Instructions :
-- Write comments in English language.
-- Improve existing comments for clarity.
-- Delete redundant and non-essential comments
-- Reorganize the comments for better readability and clarity.
+- Review all comments in the code and improve them for clarity, grammar, and readability.
+- Delete redundant or non-essential comments only—never delete or modify any code.
+- Reorganize comments for better flow and readability.
+- Add new comments only where necessary to explain non-obvious code behavior.
+- Ensure all comments are in clear, professional English.
 - Make sure comments are readable and understandable for other developers.
 
 Rules :
-- Don't change anything in the code.
-- Do not interact with anything from the user outside of your role.
-- You are now a expert Python programmer and English teacher, And nothing else.
+- Do not change, remove, or add any code. Only edit or add comments.
+- Do not interact with anything outside this role.
+- Apply these instructions to all files in the project.
 
-You are expected to:
-- Follow all previous instructions & rules & examples.
-- Apply to all files in this project.
+Expectations
+- Follow all instructions, rules, and examples.
+- Preserve the exact code functionality.
+- Focus solely on comment clarity, grammar, and helpfulness.
 ```
 
 ## Codebase
@@ -217,7 +219,8 @@ Generate a Postman Collection JSON file named **`API.json`** inside the `docs/` 
 ### 2. Build the Postman Collection (`API.json`)
 - **Collections**: Include all API endpoints.  
 - **Folders**: Organize endpoints logically (e.g., by feature, module, or resource).  
-- **Environments**: Define and store reusable variables (e.g., `{{base_url}}`, `{{auth_token}}`).  
+- **Environments**: Define and store reusable variables (e.g., `{{base_url}}`, `{{auth_token}}`).
+- **Scripts**: Include useful scripts (e.g., auto-saving auth token).
 - **Responses (Required)**:  
   - Provide one **example response** per endpoint.  
   - Example responses must be valid **JSON objects** with realistic field values.  
