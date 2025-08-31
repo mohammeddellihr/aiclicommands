@@ -52,5 +52,6 @@ Generate a Postman Collection JSON file named `API.json` inside the `docs/` dire
   - Includes **folders** for organization.  
   - Defines **environment variables** for reusability.  
   - Implements **scripts**.  
-  - Provides **example request bodies** and **example JSON responses**.  
+  - Provides **example request bodies** and **example JSON responses**.
+- The JSON file must be valid Postman Collection v2.1 format (no missing or extra commas).
 ```
