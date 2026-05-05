@@ -23,6 +23,26 @@
   - [Gemini](#gemini)
 ---
 
+## Agent
+
+```txt
+Subagent-Driven (this session) implement plan and never use git
+```
+
+```txt
+Identify mismatches between the API, UI, and extension layers. Analyze inconsistencies in data contracts, endpoints, models, naming conventions, and integration logic. Highlight gaps and propose the necessary changes to ensure full alignment across all layers.
+Additionally, review the end-to-end flow to identify security issues, including authentication, authorization, data validation, exposure of sensitive data, and improper error handling. Provide a clear list of vulnerabilities and recommended fixes.
+```
+
+```txt
+Analyze the entire codebase before making any documentation changes.
+Then revise and expand the documentation to fully align with the current implementation. Update existing documents and create any missing ones so that all aspects of the system—architecture, modules, data models, APIs, and workflows—are accurately and consistently described.
+Ensure every documented element maps directly to actual code. Remove outdated, redundant, or incorrect information. Identify and fill documentation gaps, especially around implicit logic, edge cases, and integrations.
+The final documentation should be complete, precise, and fully synchronized with the codebase, serving as a reliable source of truth for developers.
+```
+
+
+
 ## Starting
 
 ### Classes
