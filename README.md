@@ -45,6 +45,13 @@ The final documentation should be complete, precise, and fully synchronized with
 
 ## Starting
 
+```txt
+Use snake_case for function names, e.g., get_user, delete_user; avoid PascalCase like GetUser.
+Use snake_case for variable names, e.g., user_name, account_id; avoid PascalCase like UserName.
+Use snake_case for file names, e.g., user_service.py, account_manager.js; avoid PascalCase like userservice.py, Account_manager.js.
+```
+
+
 ### Classes
 
 ```txt
