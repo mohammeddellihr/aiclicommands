@@ -46,6 +46,10 @@ The final documentation should be complete, precise, and fully synchronized with
 ## Starting
 
 ```txt
+Apply Google Style Docstrings consistently across the entire Python codebase. Document all modules, classes, class attributes, constructors (`__init__`), methods, functions, arguments, return values, exceptions, and examples where relevant. Ensure every class has clear documentation describing its purpose and responsibilities. Remove disorganized, redundant, outdated, or unnecessary Python comments (`#`), while preserving useful comments that explain complex logic. Replace valuable undocumented explanations with proper Google Style Docstrings where appropriate. Preserve all existing code, functionality, and behavior. Do not introduce unnecessary comments or modify business logic.****
+```
+
+```txt
 Use snake_case for function names, e.g., get_user, delete_user; avoid PascalCase like GetUser.
 Use snake_case for variable names, e.g., user_name, account_id; avoid PascalCase like UserName.
 Use snake_case for file names, e.g., user_service.py, account_manager.js; avoid PascalCase like userservice.py, Account_manager.js.
